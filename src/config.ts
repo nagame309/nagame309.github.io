@@ -55,7 +55,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Konnie",
-	bio: "專注於網絡安全與 TLS 指紋分析 | JA4 指紋技術研究者",
+	bio: "國家資通安全研究院 工程師 | AI自動化檢測工具開發",
 	links: [
 		{
 			name: "GitHub",

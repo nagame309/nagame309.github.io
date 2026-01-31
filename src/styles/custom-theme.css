@@ -1,0 +1,119 @@
+/* 自定義主題配色 - 珊瑚紅淺色模式 */
+
+:root {
+  /* 強制淺色模式 */
+  color-scheme: light;
+
+  /* 主色調 #D86D65 */
+  --primary: #D86D65;
+
+  /* 頁面背景 */
+  --page-bg: #fafafa;
+
+  /* 卡片背景 */
+  --card-bg: #ffffff;
+
+  /* 按鈕相關 */
+  --btn-content: #D86D65;
+  --btn-regular-bg: #fef2f2;
+  --btn-regular-bg-hover: #fee2e2;
+  --btn-regular-bg-active: #fecaca;
+
+  --btn-plain-bg-hover: #fef2f2;
+  --btn-plain-bg-active: #fee2e2;
+
+  --btn-card-bg-hover: #fef9f9;
+  --btn-card-bg-active: #fef2f2;
+
+  /* 文字顏色 */
+  --deep-text: #1f2937;
+
+  /* 標題激活色 */
+  --title-active: #D86D65;
+
+  /* 分隔線 */
+  --line-divider: rgba(0, 0, 0, 0.08);
+  --line-color: rgba(0, 0, 0, 0.1);
+  --meta-divider: rgba(0, 0, 0, 0.2);
+
+  /* 行內代碼 */
+  --inline-code-bg: #fef2f2;
+  --inline-code-color: #D86D65;
+
+  /* 選取背景 */
+  --selection-bg: #fecaca;
+
+  /* 代碼塊 */
+  --codeblock-bg: #f8f8f8;
+  --codeblock-topbar-bg: #eeeeee;
+  --codeblock-selection: #fecaca;
+
+  /* 連結 */
+  --link-underline: #fee2e2;
+  --link-hover: #fef2f2;
+  --link-active: #fecaca;
+
+  /* 浮動面板 */
+  --float-panel-bg: #ffffff;
+
+  /* 滾動條 */
+  --scrollbar-bg: rgba(0, 0, 0, 0.4);
+  --scrollbar-bg-hover: rgba(0, 0, 0, 0.5);
+  --scrollbar-bg-active: rgba(0, 0, 0, 0.6);
+
+  /* 目錄相關 */
+  --toc-badge-bg: #fef2f2;
+  --toc-btn-hover: #fef9f9;
+  --toc-btn-active: #fef2f2;
+  --toc-item-active: #D86D65;
+
+  /* 隱藏深色模式圖標，只顯示淺色模式圖標 */
+  --display-light-icon: 1;
+  --display-dark-icon: 0;
+}
+
+/* 強制覆蓋深色模式，確保始終使用淺色 */
+:root.dark {
+  color-scheme: light;
+
+  --primary: #D86D65;
+  --page-bg: #fafafa;
+  --card-bg: #ffffff;
+  --btn-content: #D86D65;
+  --btn-regular-bg: #fef2f2;
+  --btn-regular-bg-hover: #fee2e2;
+  --btn-regular-bg-active: #fecaca;
+  --btn-plain-bg-hover: #fef2f2;
+  --btn-plain-bg-active: #fee2e2;
+  --btn-card-bg-hover: #fef9f9;
+  --btn-card-bg-active: #fef2f2;
+  --deep-text: #1f2937;
+  --title-active: #D86D65;
+  --line-divider: rgba(0, 0, 0, 0.08);
+  --line-color: rgba(0, 0, 0, 0.1);
+  --meta-divider: rgba(0, 0, 0, 0.2);
+  --inline-code-bg: #fef2f2;
+  --inline-code-color: #D86D65;
+  --selection-bg: #fecaca;
+  --codeblock-bg: #f8f8f8;
+  --codeblock-topbar-bg: #eeeeee;
+  --codeblock-selection: #fecaca;
+  --link-underline: #fee2e2;
+  --link-hover: #fef2f2;
+  --link-active: #fecaca;
+  --float-panel-bg: #ffffff;
+  --scrollbar-bg: rgba(0, 0, 0, 0.4);
+  --scrollbar-bg-hover: rgba(0, 0, 0, 0.5);
+  --scrollbar-bg-active: rgba(0, 0, 0, 0.6);
+  --toc-badge-bg: #fef2f2;
+  --toc-btn-hover: #fef9f9;
+  --toc-btn-active: #fef2f2;
+  --toc-item-active: #D86D65;
+  --display-light-icon: 1;
+  --display-dark-icon: 0;
+}
+
+/* 隱藏深色/淺色模式切換按鈕 */
+[data-theme-toggle] {
+  display: none !important;
+}

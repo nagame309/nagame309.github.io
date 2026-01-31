@@ -4,8 +4,8 @@
   /* 強制淺色模式 */
   color-scheme: light;
 
-  /* 主色調 #D86D65 */
-  --primary: #D86D65;
+  /* 主色調 #8190BB */
+  --primary: #8190BB;
 
   /* 頁面背景 */
   --page-bg: #fafafa;
@@ -14,22 +14,22 @@
   --card-bg: #ffffff;
 
   /* 按鈕相關 */
-  --btn-content: #D86D65;
-  --btn-regular-bg: #fef2f2;
-  --btn-regular-bg-hover: #fee2e2;
-  --btn-regular-bg-active: #fecaca;
+  --btn-content: #8190BB;
+  --btn-regular-bg: #f0f2f9;
+  --btn-regular-bg-hover: #e5e8f5;
+  --btn-regular-bg-active: #d9dff0;
 
-  --btn-plain-bg-hover: #fef2f2;
-  --btn-plain-bg-active: #fee2e2;
+  --btn-plain-bg-hover: #f0f2f9;
+  --btn-plain-bg-active: #e5e8f5;
 
-  --btn-card-bg-hover: #fef9f9;
-  --btn-card-bg-active: #fef2f2;
+  --btn-card-bg-hover: #f8f9fc;
+  --btn-card-bg-active: #f0f2f9;
 
   /* 文字顏色 */
   --deep-text: #1f2937;
 
   /* 標題激活色 */
-  --title-active: #D86D65;
+  --title-active: #8190BB;
 
   /* 分隔線 */
   --line-divider: rgba(0, 0, 0, 0.08);
@@ -37,21 +37,21 @@
   --meta-divider: rgba(0, 0, 0, 0.2);
 
   /* 行內代碼 */
-  --inline-code-bg: #fef2f2;
-  --inline-code-color: #D86D65;
+  --inline-code-bg: #f0f2f9;
+  --inline-code-color: #8190BB;
 
   /* 選取背景 */
-  --selection-bg: #fecaca;
+  --selection-bg: #d9dff0;
 
   /* 代碼塊 */
   --codeblock-bg: #f8f8f8;
   --codeblock-topbar-bg: #eeeeee;
-  --codeblock-selection: #fecaca;
+  --codeblock-selection: #d9dff0;
 
   /* 連結 */
-  --link-underline: #fee2e2;
-  --link-hover: #fef2f2;
-  --link-active: #fecaca;
+  --link-underline: #e5e8f5;
+  --link-hover: #f0f2f9;
+  --link-active: #d9dff0;
 
   /* 浮動面板 */
   --float-panel-bg: #ffffff;
@@ -62,10 +62,10 @@
   --scrollbar-bg-active: rgba(0, 0, 0, 0.6);
 
   /* 目錄相關 */
-  --toc-badge-bg: #fef2f2;
-  --toc-btn-hover: #fef9f9;
-  --toc-btn-active: #fef2f2;
-  --toc-item-active: #D86D65;
+  --toc-badge-bg: #f0f2f9;
+  --toc-btn-hover: #f8f9fc;
+  --toc-btn-active: #f0f2f9;
+  --toc-item-active: #8190BB;
 
   /* 隱藏深色模式圖標，只顯示淺色模式圖標 */
   --display-light-icon: 1;
@@ -76,39 +76,39 @@
 :root.dark {
   color-scheme: light;
 
-  --primary: #D86D65;
+  --primary: #8190BB;
   --page-bg: #fafafa;
   --card-bg: #ffffff;
-  --btn-content: #D86D65;
-  --btn-regular-bg: #fef2f2;
-  --btn-regular-bg-hover: #fee2e2;
-  --btn-regular-bg-active: #fecaca;
-  --btn-plain-bg-hover: #fef2f2;
-  --btn-plain-bg-active: #fee2e2;
-  --btn-card-bg-hover: #fef9f9;
-  --btn-card-bg-active: #fef2f2;
+  --btn-content: #8190BB;
+  --btn-regular-bg: #f0f2f9;
+  --btn-regular-bg-hover: #e5e8f5;
+  --btn-regular-bg-active: #d9dff0;
+  --btn-plain-bg-hover: #f0f2f9;
+  --btn-plain-bg-active: #e5e8f5;
+  --btn-card-bg-hover: #f8f9fc;
+  --btn-card-bg-active: #f0f2f9;
   --deep-text: #1f2937;
-  --title-active: #D86D65;
+  --title-active: #8190BB;
   --line-divider: rgba(0, 0, 0, 0.08);
   --line-color: rgba(0, 0, 0, 0.1);
   --meta-divider: rgba(0, 0, 0, 0.2);
-  --inline-code-bg: #fef2f2;
-  --inline-code-color: #D86D65;
-  --selection-bg: #fecaca;
+  --inline-code-bg: #f0f2f9;
+  --inline-code-color: #8190BB;
+  --selection-bg: #d9dff0;
   --codeblock-bg: #f8f8f8;
   --codeblock-topbar-bg: #eeeeee;
-  --codeblock-selection: #fecaca;
-  --link-underline: #fee2e2;
-  --link-hover: #fef2f2;
-  --link-active: #fecaca;
+  --codeblock-selection: #d9dff0;
+  --link-underline: #e5e8f5;
+  --link-hover: #f0f2f9;
+  --link-active: #d9dff0;
   --float-panel-bg: #ffffff;
   --scrollbar-bg: rgba(0, 0, 0, 0.4);
   --scrollbar-bg-hover: rgba(0, 0, 0, 0.5);
   --scrollbar-bg-active: rgba(0, 0, 0, 0.6);
-  --toc-badge-bg: #fef2f2;
-  --toc-btn-hover: #fef9f9;
-  --toc-btn-active: #fef2f2;
-  --toc-item-active: #D86D65;
+  --toc-badge-bg: #f0f2f9;
+  --toc-btn-hover: #f8f9fc;
+  --toc-btn-active: #f0f2f9;
+  --toc-item-active: #8190BB;
   --display-light-icon: 1;
   --display-dark-icon: 0;
 }

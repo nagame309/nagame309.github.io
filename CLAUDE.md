@@ -109,6 +109,32 @@ Uses Biome for formatting and linting:
 - Run `pnpm lint` before committing (as noted in CONTRIBUTING.md)
 - Follow Conventional Commits format for commit messages
 
+## Git Workflow 規範
+
+**Commit Practices:**
+- 頻繁提交：每次完成一組功能後必須 commit
+- 提交訊息請涵蓋變更的全部範圍，並保持訊息簡潔
+- 參考現有的 commit 訊息風格（使用中文、簡潔描述）
+
+**Branch Strategy:**
+- 開始實作新功能時建立並切換到新的 Git 分支
+- 可使用 `git worktree` 或直接創建分支進行開發
+- **永遠不要直接推送到 main/master 分支**，避免干擾 production 環境
+- 功能開發完成後透過 Pull Request 合併回主分支
+
+**Example Workflow:**
+```bash
+# 創建新分支開發功能
+git checkout -b feature/new-feature
+
+# 完成功能後提交
+git add .
+git commit -m "新增功能描述"
+
+# 推送到遠端分支（非 main）
+git push origin feature/new-feature
+```
+
 ## Deployment
 
 Build command: `pnpm build` (includes Pagefind search index generation)
